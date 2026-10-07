@@ -9,6 +9,7 @@ suivi Excel, présentations PowerPoint, extraction d'exigences depuis des specs 
 |---|---|
 | `qa-strategy-playwright` | Stratégie de recette, cas Gherkin (Xray / Zephyr / TestRail), automatisation Playwright POM et API |
 | `qa-word-deliverables` | Plan de test, PV de recette, rapport de campagne en .docx |
+| `qa-pv-recette` | PV de recette Word depuis un modèle générique BPCE et un JSON (US, anomalies, décision, visas) |
 | `qa-excel-tracking` | Synthèse de campagne depuis un rapport JUnit Playwright, matrices de couverture, suivi d'anomalies |
 | `qa-pptx-comite` | Bilan de campagne en PowerPoint |
 | `qa-pdf-specs` | Extraction d'exigences et de critères d'acceptation depuis des PDF / Word / Excel |

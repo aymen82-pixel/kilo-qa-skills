@@ -1,0 +1,43 @@
+{
+  "projet": "Projet Exemple",
+  "domaine": "Domaine A",
+  "equipe": "Équipe 1",
+  "iteration": "Sprint 12",
+  "version": "V 1.0",
+  "date": "15/01/2026",
+  "date_modification": "",
+  "release": "R2026.1",
+  "directeur_projet": "Prénom NOM",
+  "product_owner": "Prénom NOM",
+  "test_lead": "Prénom NOM",
+  "analystes": "Prénom NOM / Prénom NOM",
+  "contributeurs": "",
+  "service": "",
+  "environnement": "Recette",
+  "periode": "Du 05/01/2026 au 14/01/2026",
+  "stories": [
+    {"id": "PRJ-101", "libelle": "Création d'un dossier client", "sprint": "Sprint 12"},
+    {"id": "PRJ-102", "libelle": "Export des opérations au format CSV", "sprint": "Sprint 12"}
+  ],
+  "bugs": [
+    {"id": "PRJ-130", "libelle": "Recherche sans résultat à tort sur le filtre statut", "sprint": "Sprint 12"}
+  ],
+  "perimetre_tnr": ["Parcours de création de dossier", "Exports existants"],
+  "hors_perimetre": ["Tests de performance", "PRJ-090"],
+  "graphe": null,
+  "reserves": [],
+  "anomalies": [
+    {"id": "PRJ-140", "libelle": "Libellé tronqué dans l'export", "severite": "Mineure", "statut": "Ouverte", "contournement": "Oui"}
+  ],
+  "non_validees": [
+    {"id": "PRJ-110", "libelle": "Import en masse", "commentaire": "Reconduit au sprint suivant", "perimetre": "DEV"}
+  ],
+  "type_recette": ["fonctionnels", "tnr"],
+  "decision": "accepte_reserves",
+  "reserves_statut": "mineure",
+  "reserves_decision": [
+    {"date": "15/01/2026", "numero": "1", "descriptif": "Corriger PRJ-140 avant mise en production"}
+  ],
+  "sponsor_role": "Responsable métier / Sponsor",
+  "sponsor": "Prénom NOM"
+}
